@@ -7,9 +7,12 @@ namespace images {
         to.drawTransparentImage(src, x, y);
     }
 
-    
+    /**
+     * create frame image box
+     * like dialog frame
+     */
     //%blockid=img_imgframe
-    //%block="Set image frame $ImgF=screen_image_picker wiodth: $Wh Height: $Ht"
+    //%block="Set image frame $ImgF=screen_image_picker width: $Wh Height: $Ht"
     //%group="frame image"
     //%inlineInputMode=inline
     //%weight=8
